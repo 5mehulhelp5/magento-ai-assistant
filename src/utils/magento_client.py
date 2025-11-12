@@ -10,6 +10,7 @@ class MagentoClient:
     """Reusable Magento API client for OAuth1 connections."""
 
     def __init__(self):
+        
         self.base_url = os.getenv("MAGENTO_BASE_URL")
         self.consumer_key = os.getenv("MAGENTO_CONSUMER_KEY")
         self.consumer_secret = os.getenv("MAGENTO_CONSUMER_SECRET")

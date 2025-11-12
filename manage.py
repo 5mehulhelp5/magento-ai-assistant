@@ -29,5 +29,10 @@ def sync():
     """Run product sync script."""
     subprocess.run(["python", "-m", "src.ingestion.magento_sync"])
 
+@app.command()
+def data_preprocess():
+    """Clean and standardize Magento + PDF product data."""
+    subprocess.run(["python", "-m", "src.ingestion.preprocessor"])
+
 if __name__ == "__main__":
     app()
