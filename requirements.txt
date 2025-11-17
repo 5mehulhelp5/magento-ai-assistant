@@ -81,3 +81,4 @@ uvicorn==0.38.0
 xxhash==3.6.0
 zstandard==0.25.0
 typer
+pandas

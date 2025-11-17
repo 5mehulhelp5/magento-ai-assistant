@@ -5,8 +5,8 @@ import json
 
 # ---------- CONFIG ----------
 PDF_FOLDER = "data/samples"
-RAW_OUTPUT_FOLDER = "data/processed/raw"
-STRUCTURED_OUTPUT_FILE = "data/processed/product_specs.json"
+RAW_OUTPUT_FOLDER = "data/raw"
+STRUCTURED_OUTPUT_FILE = "data/product_specs.json"
 
 # ---------- HELPER FUNCTIONS ----------
 def extract_text_from_pdf(pdf_path):
